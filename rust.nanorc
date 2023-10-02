@@ -39,4 +39,4 @@ color magenta start="#!\[" end="\]"
 color brightcyan "(XXX|TODO|FIXME|\?\?\?)"
 
 ## Trailing spaces
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

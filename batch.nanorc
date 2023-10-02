@@ -31,4 +31,4 @@ icolor cyan "^[[:space:]]*(\<rem\>|::).*"
 icolor brightyellow ""(\^.|[^"])*""
 
 # Trailling whitespace
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

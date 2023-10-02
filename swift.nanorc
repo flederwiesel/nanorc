@@ -61,4 +61,4 @@ color green start="/\*\*" end="\*/"
 color green "[/**]"
 
 # Trailing whitespace
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

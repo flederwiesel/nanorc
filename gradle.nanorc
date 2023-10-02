@@ -20,4 +20,4 @@ color cyan start="^/\*(\*)?" end="\*/"
 color cyan start="\s/\*(\*)?" end="\*/"
 
 # Trailing whitespace
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

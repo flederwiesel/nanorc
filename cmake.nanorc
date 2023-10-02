@@ -23,4 +23,4 @@ icolor brightblue "^([[:space:]]*)?#.*"
 icolor brightblue "[[:space:]]#.*"
 
 ## Trailing whitespace
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

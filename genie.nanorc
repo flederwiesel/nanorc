@@ -47,7 +47,7 @@ color yellow "(^|[[:space:]])//.*"
 color yellow start="^\s*/\*" end="\*/"
 
 # Trailing whitespace.
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"
 
 # Spaces in front or rear of tabs.
 color ,red "	+ +| +	+"

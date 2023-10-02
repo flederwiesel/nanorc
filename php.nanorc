@@ -54,7 +54,7 @@ color red "(<\?(php)?|\?>)"
 # General HTML
 color red start="\?>" end="<\?(php|=)?"
 # trailing whitespace
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"
 # multi-line comments
 color brightyellow start="/\*" end="\*/"
 # Nowdoc

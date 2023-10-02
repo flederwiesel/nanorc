@@ -31,4 +31,4 @@ icolor brightmagenta "\%[^\%]*\%"
 icolor brightmagenta start="@\"" end="\"@"
 
 ## Trailing whitespace
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

@@ -15,4 +15,4 @@ color green "#.*"
 color yellow start="<< 'STOP'" end="STOP"
 
 ## Trailing spaces
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

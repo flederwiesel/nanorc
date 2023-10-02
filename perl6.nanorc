@@ -16,4 +16,4 @@ color brightgreen "#.*"
 color brightred start="<<EOSQL" end="EOSQL"
 
 ## Trailing spaces
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

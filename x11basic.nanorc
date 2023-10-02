@@ -166,7 +166,7 @@ icolor brightwhite,green "^\#\!.*$"
 color yellow "<[^= ]*>" ""(\\.|[^"])*""
 
 ## trailing spaces
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"
 
 ## reminders
 color brightwhite,yellow "(FIXME|TODO|XXX)"

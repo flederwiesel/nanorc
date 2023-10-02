@@ -49,4 +49,4 @@ color magenta "@return"
 color magenta "@author.*"
 
 ## Trailing whitespace
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

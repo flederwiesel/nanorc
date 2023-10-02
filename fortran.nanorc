@@ -50,4 +50,4 @@ icolor cyan "<[^=     ]*>" "'(\\.|[^"])*'"
 icolor brightred "!.*$" "(^[Cc]| [Cc]) .*$"
 
 ## Trailing spaces
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

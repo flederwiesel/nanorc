@@ -81,4 +81,4 @@ color brightblue start="/\*" end="\*/"
 color ,yellow "\<(FIXME|TODO|XXX)\>"
 
 # Trailing whitespace.
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

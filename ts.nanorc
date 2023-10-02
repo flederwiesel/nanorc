@@ -44,4 +44,4 @@ color magenta start="/\*" end="\*/"
 color magenta "^\s*//.*$"
 
 ## Trailing whitespace
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

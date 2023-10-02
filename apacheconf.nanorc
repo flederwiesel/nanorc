@@ -44,4 +44,4 @@ color green "\"(\\.|[^\"])*\""
 color white "#.*"
 
 ## Trailing spaces
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

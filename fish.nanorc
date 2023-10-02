@@ -12,4 +12,4 @@ color brightblue "\<(bg|bind|block|breakpoint|builtin|cd|command|commandline|com
 icolor brightred "\$\{?[0-9A-Z_!@#$*?-]+\}?"
 color cyan "(^|[[:space:]])#.*$"
 color brightyellow ""(\\.|[^"])*"" "'(\\.|[^'])*'"
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

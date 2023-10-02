@@ -28,7 +28,7 @@ color brightblue "#.*"
 color ,red "^[[:space:]]*=.*"
 
 # Trailing whitespace
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"
 
 
 # MIT License

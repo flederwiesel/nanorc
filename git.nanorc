@@ -5,7 +5,7 @@ color cyan "^[[:space:]]*[^=]*="
 color brightmagenta "^[[:space:]]*\[.*\]$"
 color yellow ""(\\.|[^"])*"|'(\\.|[^'])*'"
 color brightblack "(^|[[:space:]])#([^{].*)?$"
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"
 color ,red "	+"
 
 # This code is free software; you can redistribute it and/or modify it under
@@ -46,7 +46,7 @@ color brightblack "^#[[:space:]]On branch"
 color brightblack "#"
 
 # Trailing spaces (+LINT is not ok, git uses tabs)
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"
 
 
 # This syntax format is used for interactive rebasing

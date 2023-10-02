@@ -30,7 +30,7 @@ color brightblack start="^\s*/\*" end="\*/"
 color brightblack start="\(\*" end="\*\)"
 color brightwhite,cyan "TODO:?"
 
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"
 color ,red "    + +| +  +"
 
 color red "#if .+"

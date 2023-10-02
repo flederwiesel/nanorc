@@ -22,4 +22,4 @@ color brightblack "(^|[[:space:]])#([^{].*)?$"
 color brightblack  "^	@#.*"
 
 # Show trailing whitespace
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

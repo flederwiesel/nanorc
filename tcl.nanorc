@@ -24,4 +24,4 @@ icolor brightred "\$\{?[0-9A-Z_!@#$*?-]+\}?"
 ## Comments
 color magenta "(^|;)[[:space:]]*#.*"
 ## Trailing whitespace
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"

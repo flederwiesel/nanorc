@@ -30,4 +30,4 @@ color brightyellow "(["][^"]*[^\\]["])|("")"
 
 color brightblue ";.*$"
 
-color ,green "[[:space:]]+$"
+color ,red "[[:space:]]+$"
