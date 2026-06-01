@@ -2,16 +2,13 @@
 syntax "Dockerfile" "Dockerfile[^/]*$" "\.dockerfile$"
 
 ## Keywords
-icolor red "^(FROM|RUN|CMD|LABEL|MAINTAINER|EXPOSE|ENV|ADD|COPY|ENTRYPOINT|VOLUME|USER|WORKDIR|ARG|ONBUILD|STOPSIGNAL|HEALTHCHECK|SHELL)[[:space:]]"
-
-## Brackets & parenthesis
-color brightgreen "(\(|\)|\[|\])"
+icolor cyan "^(FROM|RUN|CMD|LABEL|MAINTAINER|EXPOSE|ENV|ADD|COPY|ENTRYPOINT|VOLUME|USER|WORKDIR|ARG|ONBUILD|STOPSIGNAL|HEALTHCHECK|SHELL)[[:space:]]"
 
 ## Double ampersand
 color brightmagenta "&&"
 
 ## Comments
-icolor cyan "^[[:space:]]*#.*$"
+icolor green "^[[:space:]]*#.*$"
 
 ## Blank space at EOL
 color ,red "[[:space:]]+$"
@@ -21,6 +18,3 @@ color brightwhite "'([^']|(\\'))*'" "%[qw]\{[^}]*\}" "%[qw]\([^)]*\)" "%[qw]<[^>
 
 ## Strings, double-quoted
 color brightwhite ""([^"]|(\\"))*"" "%[QW]?\{[^}]*\}" "%[QW]?\([^)]*\)" "%[QW]?<[^>]*>" "%[QW]?\[[^]]*\]" "%[QW]?\$[^$]*\$" "%[QW]?\^[^^]*\^" "%[QW]?![^!]*!"
-
-## Single and double quotes
-color brightyellow "('|\")"
